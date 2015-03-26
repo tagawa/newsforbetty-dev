@@ -57,8 +57,11 @@ body, .fontMed {
 .read-more {
     text-align: right;
 }
-#sources button {
-    margin-bottom:5px;
+#sources1, #sources2, #sources3 {
+    margin-bottom: 1em;
+}
+#sources1 button, #sources2 button, #sources3, button {
+    margin-bottom: 5px;
 }
 
 @media (min-width: 560px) {
